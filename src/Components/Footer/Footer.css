@@ -1,0 +1,96 @@
+.footer {
+  width: 100%;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background: #191919;
+}
+
+.footer-wrapper {
+  display: flex;
+}
+
+.footer-rights {
+  width: 320px;
+  margin-right: 100px;
+}
+
+.footer-heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.footer-paragraph {
+  margin: 0;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.footer-pages {
+  width: 143px;
+  margin-right: 87px;
+}
+
+.footer-sites {
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-item {
+  margin-bottom: 8px;
+}
+
+.pseudo {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.pseudo::before {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}
+
+.telegram::before {
+  background-image: url(../../images/footer-part/telegram.svg);
+  background-size: 22px 23px;
+}
+
+.facebook::before {
+  background-image: url(../../images/footer-part/facebook.svg);
+  background-size: 21px 23px;
+}
+
+.instagram::before {
+  background-image: url(../../images/footer-part/instagram.svg);
+  background-size: 22px 21px;
+}
+
+.footer-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-link:hover {
+  color: #00bafc;
+}
+
+.footer-link:active {
+  opacity: 0.6;
+}

@@ -1,0 +1,153 @@
+.services {
+}
+
+.services-wrapper {
+  margin-bottom: 56px;
+}
+
+.services-heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.services-paragraph {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.services-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 260px;
+  margin-bottom: 48px;
+  padding: 0;
+  background: #ffffff;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.services-item:hover {
+  box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+
+.services-item:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.services-item::before {
+  display: inline-block;
+  width: 250px;
+  height: 130px;
+  margin-bottom: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}
+
+.veb-site::before {
+  background-image: url(../../images/services-part/website-illustration.svg);
+  background-size: 202px 130px;
+}
+
+.telegram-bot::before {
+  background-image: url(../../images/services-part/bot-illustration.svg);
+  background-size: 222px 130px;
+}
+
+.smm::before {
+  background-image: url(../../images/services-part/smm-illustration.svg);
+  background-size: 177px 130px;
+}
+
+.design {
+  margin-left: 195px;
+}
+
+.design::before {
+  background-image: url(../../images/services-part/design-illustration.svg);
+  background-size: 179px 130px;
+}
+
+.crm {
+  margin-right: 195px;
+}
+
+.crm::before {
+  background-image: url(../../images/services-part/crm-illustration.svg);
+  background-size: 169px 130px;
+}
+
+.services-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.services-link-heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.services-link-paragraph {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.services-links {
+  text-align: center;
+}
+
+.link-to-order {
+  display: inline-block;
+  width: 167px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  background: #00bafc;
+  border-radius: 5px;
+}
+
+.link-to-order:hover {
+  background: rgba(0, 186, 252, 0.8);
+}
+
+.link-to-order:active {
+  background: rgba(0, 186, 252, 0.6);
+}
+
+.link-to-services {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #00bafc;
+}

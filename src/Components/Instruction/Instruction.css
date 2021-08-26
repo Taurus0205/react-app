@@ -1,0 +1,101 @@
+.instruction {
+  margin-bottom: 95px;
+}
+
+.container-small {
+  width: 890px;
+}
+
+.instruction-heading {
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.instruction-paragraph {
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.instruction-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.instruction-item {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+  padding: 0;
+}
+
+.instruction-item::before {
+  display: inline-block;
+  width: 300px;
+  height: 278px;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}
+
+.demands::before {
+  background-image: url(../../images/instruction-part/demands.svg);
+  background-size: 300px 278px;
+}
+
+.solution::before {
+  background-image: url(../../images/instruction-part/solution.svg);
+  background-size: 300px 225px;
+}
+
+.time::before {
+  background-image: url(../../images/instruction-part/time.svg);
+  background-size: 300px 259px;
+}
+
+.quality::before {
+  background-image: url(../../images/instruction-part/quality.svg);
+  background-size: 300px 162px;
+}
+
+.support::before {
+  background-image: url(../../images/instruction-part/support.svg);
+  background-size: 300px 232px;
+}
+
+.instruction-item:nth-child(2n)::before {
+  order: 1;
+}
+
+.instruction-item-wrapper {
+  width: 493px;
+}
+
+.instruction-item-heading {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.instruction-item-paragraph {
+  margin: 0;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
