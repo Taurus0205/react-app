@@ -65,17 +65,17 @@
 }
 
 .telegram::before {
-  background-image: url(../../images/footer-part/telegram.svg);
+  background-image: url(../../Assests/images/footer-part/telegram.svg);
   background-size: 22px 23px;
 }
 
 .facebook::before {
-  background-image: url(../../images/footer-part/facebook.svg);
+  background-image: url(../../Assests/images/footer-part/facebook.svg);
   background-size: 21px 23px;
 }
 
 .instagram::before {
-  background-image: url(../../images/footer-part/instagram.svg);
+  background-image: url(../../Assests/images/footer-part/instagram.svg);
   background-size: 22px 21px;
 }
 

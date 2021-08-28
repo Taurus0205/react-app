@@ -63,17 +63,17 @@
 }
 
 .veb-site::before {
-  background-image: url(../../images/services-part/website-illustration.svg);
+  background-image: url(../../Assests/images/services-part/website-illustration.svg);
   background-size: 202px 130px;
 }
 
 .telegram-bot::before {
-  background-image: url(../../images/services-part/bot-illustration.svg);
+  background-image: url(../../Assests/images/services-part/bot-illustration.svg);
   background-size: 222px 130px;
 }
 
 .smm::before {
-  background-image: url(../../images/services-part/smm-illustration.svg);
+  background-image: url(../../Assests/images/services-part/smm-illustration.svg);
   background-size: 177px 130px;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .design::before {
-  background-image: url(../../images/services-part/design-illustration.svg);
+  background-image: url(../../Assests/images/services-part/design-illustration.svg);
   background-size: 179px 130px;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .crm::before {
-  background-image: url(../../images/services-part/crm-illustration.svg);
+  background-image: url(../../Assests/images/services-part/crm-illustration.svg);
   background-size: 169px 130px;
 }
 

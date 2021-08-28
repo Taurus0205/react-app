@@ -1,5 +1,8 @@
 import "./Header.css";
 
+// images
+import Logo from "../../Assests/images/pixer-logo.svg";
+
 function Header() {
   return (
     <header className="header">
@@ -8,7 +11,7 @@ function Header() {
           <a class="header-logo-link" href="#">
             <img
               class="header-logo"
-              src="../../images/pixer-logo.svg"
+              src={Logo}
               alt="a logo of Pixer"
               width="58"
               height="20"

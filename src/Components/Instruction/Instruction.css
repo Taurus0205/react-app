@@ -52,27 +52,27 @@
 }
 
 .demands::before {
-  background-image: url(../../images/instruction-part/demands.svg);
+  background-image: url(../../Assests/images/instruction-part/demands.svg);
   background-size: 300px 278px;
 }
 
 .solution::before {
-  background-image: url(../../images/instruction-part/solution.svg);
+  background-image: url(../../Assests/images/instruction-part/solution.svg);
   background-size: 300px 225px;
 }
 
 .time::before {
-  background-image: url(../../images/instruction-part/time.svg);
+  background-image: url(../../Assests/images/instruction-part/time.svg);
   background-size: 300px 259px;
 }
 
 .quality::before {
-  background-image: url(../../images/instruction-part/quality.svg);
+  background-image: url(../../Assests/images/instruction-part/quality.svg);
   background-size: 300px 162px;
 }
 
 .support::before {
-  background-image: url(../../images/instruction-part/support.svg);
+  background-image: url(../../Assests/images/instruction-part/support.svg);
   background-size: 300px 232px;
 }
 
